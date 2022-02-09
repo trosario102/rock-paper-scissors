@@ -6,4 +6,5 @@ function computerPlay() {
 
 function playerPlay() {
     let playerSelection = prompt('Please enter rock, paper, or scissors:');
+    return playerSelection;
 }
