@@ -48,7 +48,7 @@ function playRound(computerSelection, playerSelection) {
     }
 }
 
-function game(rounds) {
+/*function game(rounds) {
     let computerWins = 0;
     let playerWins = 0;
     let ties = 0;
@@ -79,5 +79,5 @@ function game(rounds) {
     return;
 }
 
-let rounds = prompt(5);
+let rounds = prompt(5);*/
 game(rounds);
