@@ -79,5 +79,5 @@ function game(rounds) {
     return;
 }
 
-let rounds = prompt("Number of rounds:");
+let rounds = prompt(5);
 game(rounds);
