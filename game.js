@@ -119,7 +119,6 @@ paperButton.addEventListener('click', function () {
         console.log("Player chose: paper");
         let results = playRound(computerPlay(), 'paper');
         keepScore(results[1]);
-        let value = whoWins(playerWins, computerWins);
     }
     if (playerWins >= 5) {
         this.removeEventListener('click', arguments.callee);
@@ -144,7 +143,6 @@ scissorsButton.addEventListener('click', function () {
         console.log("Player chose: scissors");
         let results = playRound(computerPlay(), 'scissors');
         keepScore(results[1]);
-        let value = whoWins(playerWins, computerWins);
     }
     if (playerWins >= 5) {
         this.removeEventListener('click', arguments.callee);
